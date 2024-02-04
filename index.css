@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/006/241/067/small/abstract-polygon-3d-triangle-yellow-geometric-background-free-photo.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    background: white;
+    box-shadow: 0 0 10px black;
+    width: 600px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+.card-image-container img{
+    width: 330px;
+}
+.login-card{
+    width: 300px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px black; 
+    margin-right: -300px; 
+}
+
+.login-header{
+    padding: 15px;
+}
+.login-header span{
+    margin-left: 70px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    
+}
+.login-content{
+    padding: 10px;
+}
+.login-content-span{
+    margin-bottom: 10px;
+}
+.login-content-span label{
+    font-size: 18px;
+}
+.login-content-span input{
+    width: 90%;
+    height: 30px;
+    padding-left: 10px;
+    border: none;
+    outline: 1px  solod rgb(106, 105, 105);
+    margin-top: 5px;
+}
+.login-content-span input:focus{
+    outline: 2px solid green;
+}
+.login-actions{
+    padding: 10px;
+}
+button{
+    width: 70px;
+    height: 30px;
+    background-color: crimson;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.6s;
+}
+button:hover{
+    transform: scale(0.7);
+}
